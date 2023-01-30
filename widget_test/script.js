@@ -16,7 +16,7 @@ define(['jquery', 'underscore', 'twigjs'], function ($, _, Twig) {
 
     this.callbacks = {
       render: function () {
-        console.log('render');
+        console.log('renderrrr');
         return true;
       },
       init: _.bind(function () {
@@ -84,6 +84,7 @@ define(['jquery', 'underscore', 'twigjs'], function ($, _, Twig) {
       leads: {
         //select leads in list and clicked on widget name
         selected: function () {
+          // this.render();
           console.log('leads');
         }
       },
